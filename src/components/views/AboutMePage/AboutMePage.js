@@ -3,7 +3,9 @@ import React from 'react'
 function AboutMePage() {
     return (
         <div>
-            AboutMePage
+            <div class="container">
+              AboutMePage
+            </div>
         </div>
     )
 }
