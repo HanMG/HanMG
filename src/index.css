@@ -4,10 +4,26 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
+  background-color: #F2E4C9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar-light .navbar-nav {
+  margin: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{  
+  color: #A66832;
+}
+
+footer, .nav-wrapper {
+  background-color: #F2C335;
+}
+
+footer p{
+  padding: 20px;
 }
