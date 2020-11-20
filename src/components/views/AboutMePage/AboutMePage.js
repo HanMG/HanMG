@@ -6,8 +6,8 @@ function AboutMePage() {
     return (
         <div>
             <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">About Me <FontAwesomeIcon icon={faAddressCard} size="1x" /></h1>                    
+                <div class="container text-center">
+                    <h1 class="display-4 titles">About Me <FontAwesomeIcon icon={faAddressCard} size="1x" /></h1>                    
                 </div>
             </div>
         </div>

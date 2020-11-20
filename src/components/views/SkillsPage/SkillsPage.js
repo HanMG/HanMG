@@ -6,8 +6,8 @@ function SkillsPage() {
     return (
         <div>
             <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">Skills <FontAwesomeIcon icon={faCode} size="1x" /></h1>                    
+                <div class="container text-center">
+                    <h1 class="display-4 titles">Skills <FontAwesomeIcon icon={faCode} size="1x" /></h1>                    
                 </div>
             </div>
         </div>
