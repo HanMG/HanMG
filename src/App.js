@@ -9,6 +9,7 @@ import LandingPage from "./components/views/LandingPage/LandingPage"
 import AboutMePage from "./components/views/AboutMePage/AboutMePage"
 import SkillsPage from "./components/views/SkillsPage/SkillsPage"
 import WorksPage from "./components/views/WorksPage/WorksPage"
+import ContactPage from "./components/views/ContactPage/ContactPage"
 import NavBar from "./components/views/NavBar/NavBar"
 import Footer from "./components/views/Footer/Footer"
 
@@ -21,7 +22,8 @@ function App() {
           <Route exact path="/" component={LandingPage} />                      
           <Route path="/aboutme" component={AboutMePage} />           
           <Route path="/skills" component={SkillsPage} />                     
-          <Route path="/works" component={WorksPage} />            
+          <Route path="/works" component={WorksPage} />     
+          <Route path="/contact" component={ContactPage} />            
         </Switch>
       </div>
       <Footer />
