@@ -28,8 +28,11 @@ body {
   flex-direction: column;
 }
 
+.nav-wrapper {
+  min-height: 64px;
+}
 #content {
-  flex: 1;
+  min-height: calc(100vh - 140px);
 }
 
 code {
@@ -56,6 +59,7 @@ footer, .nav-wrapper {
 
 footer {
   font-weight: bold;
+  padding: 20px;
 }
 
 footer p{

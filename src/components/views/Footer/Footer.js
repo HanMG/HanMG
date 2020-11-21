@@ -5,7 +5,7 @@ function Footer() {
         <div>
             <footer>
                 <div class="container text-center">
-                    <p>COPYRIGHT HANMOONGOO ALL RESERVED.</p>
+                    <span>COPYRIGHT HANMOONGOO ALL RESERVED.</span>
                 </div>
             </footer>
         </div>

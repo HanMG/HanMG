@@ -11,7 +11,7 @@ function WorksPage() {
                     <h1 class="display-4 titles">Works <FontAwesomeIcon icon={faDiceD6} size="1x" /></h1>                    
                 </div>
             </div>
-            <div class="container">
+            <div class="container mb-4">
                 <div class="row">
                     <div class="col-lg-4 p-2">
                         <WorkList title="SK이노베이션" />
