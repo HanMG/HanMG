@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+         /* reset */
+        html,body { width:100%; height:100%; }
+        body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,button,input { margin:0; padding:0; }
+        body,h1,h2,h3,h4,input,button { font-size:12px; }
+        ul,li,ol { list-style:none; }
+        img,fieldset,iframe { border:0; }
+        img { vertical-align:top; }
+        table { border-collapse:collapse; }
+        a {text-decoration: none;}
+        
+       
+       
+
+        /* base */
+        body { font-family:"Roboto","나눔고딕","돋움"; font-size:11px; }
+        .skip_navigation a { position:absolute; top:-9999px; font-size:0; }
+        .skip_navigation a:focus { top:0; left: 0%; width: 20%; padding:10px; font-size:14px; color:white; background-color:#ff6b66; text-align: center;}
+        .blind { position:absolute; top:-9999px; font-size:0; }
+        
+        /*header*/
+        #header {position: relative; height: 96px; /*background: red;*/}  
+        #header .inner{position: relative; margin: 0 auto; width: 1020px; height: 96px; /*background: pink;*/ }
+        #header .inner h1 img{ vertical-align: middle; margin-top: 15px;}
+        #header .inner .gnb li{position: relative; float: left; left: 220px; bottom:25px; margin-right: 59px; }
+        #header .inner .gnb li a{color:black; font-weight: bold; font-size: 15px;}
+         #header .inner .gnb li a:hover {color:#ff6b66; text-decoration: underline;}
+        #header .inner .top_gnb li{position: relative; float: right; margin-left:18px; text-align: center; bottom:35px; }
+        #header .inner .top_gnb li:last-child{margin-left: 0;}
+        #header .inner .top_gnb li a{color: gray; font-size:12px;}
+        #header .inner .top_gnb li a:hover {color:#ff6b66; text-decoration: underline;}
+        
+        /*shortcut*/
+        #shortcut {height: 224px;background: #e9e9e9;}
+        #shortcut .inner {position:relative;width: 1020px; height:224px; margin: 0 auto; }
+        #shortcut .inner div {float:left;}                 
+        #shortcut .inner div h3 {padding-top:30px; padding-bottom: 13px; font-size: 14px; color: #333333;}
+        #shortcut .inner div a{color:#666666;}
+        #shortcut .inner div a:hover{ text-decoration: underline;}
+        #shortcut .inner .area1 {width: 509px; height: 225px; border-right:1px solid #d7d7d7;}    
+        #shortcut .inner .area1 div li {list-style:inside; margin-bottom:10px;  line-height: 10px;}
+        #shortcut .inner .area1 .sec1{width: 50%;}
+        #shortcut .inner .area1 .sec2{width: 50%;}    
+        #shortcut .inner .area2 {width: 495px;height: 225px; margin-left: 15px;}   
+        #shortcut .inner .area2 div li {list-style:inside; margin-bottom:10px; line-height: 10px;}        
+        #shortcut .inner .area2 .sec1 .privacy {color:red;}
+        #shortcut .inner .area2 .sec1 .privacy a {color:red;}
+        #shortcut .inner .area2 .sec1{width: 50%;}
+        #shortcut .inner .area2 .sec1 .declaration {padding-top:20px;}
+        #shortcut .inner .area2 .sec2{width: 50%;}   
+        #shortcut .inner .area2 .sec2 img{margin-bottom: 5px;}
+        
+        /*footer*/
+        #footer {height: 95px;}
+        #footer .inner {margin:0 auto; width: 1020px; height:95px; background: white;}
+        #footer .inner .f_contents {padding-top:25px;}
+        #footer .inner .f_contents p {margin-bottom: 10px;}
+        #footer .inner .f_contents .first {font-size: 12px; color: #333333;}
+        #footer .inner .f_contents .last {color: #666666;}

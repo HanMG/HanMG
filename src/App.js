@@ -13,6 +13,7 @@ import ContactPage from "./components/views/ContactPage/ContactPage"
 import NavBar from "./components/views/NavBar/NavBar"
 import Footer from "./components/views/Footer/Footer"
 
+
 function App() {
   return (
     <Router>
@@ -23,7 +24,7 @@ function App() {
           <Route path="/aboutme" component={AboutMePage} />           
           <Route path="/skills" component={SkillsPage} />                     
           <Route path="/works" component={WorksPage} />     
-          <Route path="/contact" component={ContactPage} />            
+          <Route path="/contact" component={ContactPage} />                     
         </Switch>
       </div>
       <Footer />

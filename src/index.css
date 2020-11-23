@@ -39,6 +39,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
 .titles {
   font-weight: bold;
 }
@@ -64,6 +66,18 @@ footer {
 
 footer p{
   padding: 20px;
+}
+
+/* worksList */
+
+.card {
+  background-color: #F2C36B;  
+}
+
+.btn-works{
+  display:block;
+  background-color: #A66832;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {

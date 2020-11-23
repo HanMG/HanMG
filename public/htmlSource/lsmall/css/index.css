@@ -1,0 +1,87 @@
+/*
+            z-index
+            gallary : 10;
+            #gnb .list : 10;
+            .cir : 20;
+            preview : 30;
+*/
+
+    
+   
+    
+    /*  inside */
+    .divide {margin-right: 11px; margin-left: 11px; margin-top: 6px;}
+    button {padding:0 5px; margin:0; cursor: pointer; background: #666666; color:#ccc; height: 20px;}
+    .list {display: none;}
+    .orangered {color: orangered;}
+    .origin {text-decoration: line-through;}
+    .material-icons {position: relative; font-size: 48px; color: white; line-height:42px; right:4px;}
+    .title { height: 30px; background: white; }
+    .title h2 {font-size:30px; font-weight: bold;line-height: 20px; }
+    .title .upside_img {position: absolute; margin-left: 20px; top:8px;}
+    .brand {position: relative; height: 349px; }
+    .brand ul li {float:left;}
+    .brand_go {position: absolute; bottom:0px; height: 48px; width: 244px; background: rgba(0,0,0,0.6); text-align: center; line-height: 50px; transition:1s;}
+    .brand_go a {color: white; font-size: 15px; font-weight: bold;}
+    .brand_go:hover {background: rgba(0,0,0,0.9); }
+    .pic {width: 220px; height: 220px; }
+    .preview { display :none; position: absolute; width: 220px; height: 36px; background: rgba(44,62,80,0.9); text-align: center;  line-height: 35px; top:220px; z-index: 30;}
+    .preview a {color: white;}    
+    .company {margin-top: 45px; font-size: 14px; font-weight: bold; margin-bottom: 5px;}
+    .company span {background: green; color: white; margin-left: 10px; font-weight: 100;}
+    .product {font-size: 13px; margin-bottom: 20px;}    
+    .price {font-size: 13px; font-weight: bold;}
+    .price span {font-size: 12px;}
+    .items {margin-right: 0;}
+    .items li { margin:0 10px;}
+    .cir {width: 40px; height: 40px; border-radius: 50%; background: rgba(0,0,0,0.4); z-index: 20; }
+    .cir:hover {background: rgba(0,0,0,0.8);}   
+    .cir span {position: relative; top: 2px; color: white; font-size: 24px; margin: 12px;}
+    .active {background: red; color: white;}
+    
+    
+    
+    #wrap {width: 100%; height: 100%;  margin: 0; padding: 0; }
+    #inner {position: relative; width: 1220px; margin: 0 auto; }
+    #visual {position: relative; height: 432px; margin-bottom: 22px;}
+    #prospecs {position: relative; height: 379px; margin-bottom: 40px; }
+
+    #montbell {position:relative; height: 379px; margin-bottom: 40px; }
+    #outlet {position:relative;height: 379px; margin-bottom: 20px; }
+    #outlet .side_menu {width: 244px; height: 349px; background: white;}  
+    #outlet .side_menu ul {border: 1px solid #d9d9d9; border-right:none;}
+    #outlet .side_menu ul li {float: none; height: 45px;  font-size: 13px; font-weight: bold; border-bottom: 1px solid #d9d9d9;  line-height: 45px;cursor: pointer; padding-left: 20px;}
+    #outlet .side_menu ul li:last-child {border-bottom: 0;}
+    #outlet ul li {float: left;}
+    
+
+    
+    
+    /* swiper */
+    .gallery1 { position:relative; margin:0 auto; max-width: 1220px; height: 432px;  overflow:hidden; } /* 갤러리 전체영역 설정 */
+    .gallery1 .nav1 { position: absolute; left:0px; bottom:20px; text-align: center;  z-index: 10; } /* 메뉴영역 설정 */
+    .gallery1 .nav1 .swiper-pagination-bullet { background-color:black; opacity:0.5; width:15px; height:15px; margin-left:10px; border-radius:50%; border: 1px solid black;  } /* 메뉴 설정 */
+    .gallery1 .nav1 .swiper-pagination-bullet-active{ background-color:bisque; opacity:1; } /* 메뉴on 설정 */
+    .gallery1 .swiper-button-prev { display: none; } /* 이전버튼 설정 */
+    .gallery1 .swiper-button-next { display: none; } /* 다음버튼 설정 */
+    
+    .gallery2 { position:relative; margin:0 auto; margin:0 5px; width: 966px; height: 349px;  overflow:hidden; background: white; } /* 갤러리 전체영역 설정 */
+    .gallery2 .nav2 { display: none; } /* 메뉴영역 설정 */
+    .gallery2 .nav2 .swiper-pagination-bullet { background-color:black; opacity:0.5; width:15px; height:15px; margin-left:10px; border-radius:50%; border: 1px solid black;  } /* 메뉴 설정 */
+    .gallery2 .nav2 .swiper-pagination-bullet-active{ background-color:bisque; opacity:1; } /* 메뉴on 설정 */
+    .gallery2 .swiper-button-prev2 { position:absolute; left:0px; top:50%; width:27px; height:44px; margin-top:-22px; z-index:10; cursor:pointer; background-size:cover; } /* 이전버튼 설정 */
+    .gallery2 .swiper-button-next2 { position:absolute; right:10px; top:50%; width:27px; height:44px; margin-top:-22px; z-index:10; cursor:pointer; background-size:cover; } /* 다음버튼 설정 */
+    
+    .gallery3 { position:relative; margin:0 auto; margin:0 5px; width: 966px; height: 349px;  overflow:hidden; background: white; } /* 갤러리 전체영역 설정 */
+    .gallery3 .nav3 { display: none; } /* 메뉴영역 설정 */
+    .gallery3 .nav3 .swiper-pagination-bullet { background-color:black; opacity:0.5; width:15px; height:15px; margin-left:10px; border-radius:50%; border: 1px solid black;  } /* 메뉴 설정 */
+    .gallery3 .nav3 .swiper-pagination-bullet-active{ background-color:bisque; opacity:1; } /* 메뉴on 설정 */
+    .gallery3 .swiper-button-prev3 { position:absolute; left:10px; top:50%; width:27px; height:44px; margin-top:-22px; z-index:10; cursor:pointer; background-size:cover; } /* 이전버튼 설정 */
+    .gallery3 .swiper-button-next3 { position:absolute; right:10px; top:50%; width:27px; height:44px; margin-top:-22px; z-index:10; cursor:pointer; background-size:cover; } /* 다음버튼 설정 */
+    
+    .gallery4 { position:relative; margin:0 auto; margin:0; width: 971px; height: 349px;  overflow:hidden; background: white; border: 2px solid red; box-sizing: border-box;} /* 갤러리 전체영역 설정 */
+    .gallery4 .nav4 { display: none; } /* 메뉴영역 설정 */
+    .gallery4 .nav4 .swiper-pagination-bullet { background-color:black; opacity:0.5; width:15px; height:15px; margin-left:10px; border-radius:50%; border: 1px solid black;  } /* 메뉴 설정 */
+    .gallery4 .nav4 .swiper-pagination-bullet-active{ background-color:bisque; opacity:1; } /* 메뉴on 설정 */
+    .gallery4 .swiper-button-prev4 { position:absolute; left:10px; top:50%; width:27px; height:44px; margin-top:-22px; z-index:10; cursor:pointer; background-size:cover; } /* 이전버튼 설정 */
+    .gallery4 .swiper-button-next4 { position:absolute; right:10px; top:50%; width:27px; height:44px; margin-top:-22px; z-index:10; cursor:pointer; background-size:cover; } /* 다음버튼 설정 */
