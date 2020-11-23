@@ -7,7 +7,6 @@ import {
 
 import LandingPage from "./components/views/LandingPage/LandingPage"
 import AboutMePage from "./components/views/AboutMePage/AboutMePage"
-import SkillsPage from "./components/views/SkillsPage/SkillsPage"
 import WorksPage from "./components/views/WorksPage/WorksPage"
 import ContactPage from "./components/views/ContactPage/ContactPage"
 import NavBar from "./components/views/NavBar/NavBar"
@@ -21,8 +20,7 @@ function App() {
       <div id="content">        
         <Switch>
           <Route exact path="/" component={LandingPage} />                      
-          <Route path="/aboutme" component={AboutMePage} />           
-          <Route path="/skills" component={SkillsPage} />                     
+          <Route path="/aboutme" component={AboutMePage} />                               
           <Route path="/works" component={WorksPage} />     
           <Route path="/contact" component={ContactPage} />                     
         </Switch>

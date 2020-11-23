@@ -74,10 +74,39 @@ footer p{
   background-color: #F2C36B;  
 }
 
+.ex_company {
+  border-bottom: 2px solid #F2C36B;
+}
+
 .btn-works{
   display:block;
   background-color: #A66832;
   font-weight: bold;
+}
+
+.tag {
+  background: #A66832;
+  border-radius: 3px 0 0 3px;
+  color: #F2E4C9;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 13px 0 13px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+
+
+.tag:hover {
+  background-color: #F2C335;
+  color: black;
+}
+
+.tag:hover::after {
+   border-left-color: #F2C335; 
 }
 
 @media only screen and (max-width: 600px) {

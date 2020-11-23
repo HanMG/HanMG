@@ -17,10 +17,7 @@ function NavBar() {
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/aboutme">AboutMe</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/skills">Skils</a>
-                                </li>
+                                </li>                               
                                 <li class="nav-item">
                                     <a class="nav-link" href="/works">Works</a>
                                 </li>
