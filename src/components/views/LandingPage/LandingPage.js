@@ -9,9 +9,9 @@ function LandingPage() {
                     <h1 class="display-4">HANMOONGOO's Portfolio</h1>
                     <p class="lead">Welcome to My Portfolio for WebPublisher / WebFrontEnd</p>
                     <p class="lead">REACT Version</p>
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-lg-6">
-
+                            
                         </div>
                         <div class="col-lg-6">
                             <div class="container">

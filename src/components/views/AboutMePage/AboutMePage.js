@@ -13,6 +13,9 @@ function AboutMePage() {
             <div class="container text-center mb-5">
                 <div class="row">
                     <div class="col-md-6">
+                        <img src="" alt="my Photo" width="100%" />
+                    </div>
+                    <div class="col-md-6">
                         <p><h4>NAME.</h4></p>
                         <p>한문구</p>
                         <p><h4>BIRTH.</h4></p>
@@ -23,11 +26,9 @@ function AboutMePage() {
                             <p><span class="tag">Jquery</span><span class="tag">BootStrap</span><span class="tag">React</span></p>                           
                             <p><span class="tag">Photoshop</span></p>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="" alt="my Photo" width="100%" />
-                    </div>
+                    </div>                    
                 </div>
+                <hr />
                 <div>
                     <p class="mt-4 p-3"><h4>EXPERIENCE.</h4></p>
                     <div class="row ex_company">
