@@ -24,7 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "front": "nodemon index.js "
+    "front": "nodemon index.js ",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +49,6 @@
   "devDependencies": {
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "homepage": "https://hanmg.github.io/hanmg.github.io" 
 }
