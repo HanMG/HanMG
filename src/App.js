@@ -11,6 +11,7 @@ import WorksPage from "./components/views/WorksPage/WorksPage"
 import ContactPage from "./components/views/ContactPage/ContactPage"
 import NavBar from "./components/views/NavBar/NavBar"
 import Footer from "./components/views/Footer/Footer"
+import NotFoundPage from "./components/views/Commons/NotFoundPage"
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
           <Route exact path="/" component={LandingPage} />                      
           <Route path="/aboutme" component={AboutMePage} />                               
           <Route path="/works" component={WorksPage} />     
-          <Route path="/contact" component={ContactPage} />                     
+          <Route path="/contact" component={ContactPage} />        
+          <Route path='*' component={NotFoundPage} />             
         </Switch>
       </div>
       <Footer />
