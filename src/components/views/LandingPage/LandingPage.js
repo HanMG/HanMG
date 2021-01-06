@@ -4,17 +4,17 @@ import GitHubCalendar from 'react-github-calendar'
 function LandingPage() {
     return (
         <div>
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">HANMOONGOO's Portfolio</h1>
-                    <p class="lead">Welcome to My Portfolio for WebPublisher / WebFrontEnd</p>
-                    <p class="lead">REACT Version</p>
-                    <div class="row mt-5">
-                        <div class="col-lg-6">
+            <div className="jumbotron jumbotron-fluid">
+                <div className="container">
+                    <h1 className="display-4">HANMOONGOO's Portfolio</h1>
+                    <p className="lead">Welcome to My Portfolio for WebPublisher / WebFrontEnd</p>
+                    <p className="lead">REACT Version</p>
+                    <div className="row mt-5">
+                        <div className="col-lg-6">
                             
                         </div>
-                        <div class="col-lg-6">
-                            <div class="container">
+                        <div className="col-lg-6">
+                            <div className="container">
                                 <p><b>Non React Version</b></p>
                                 <a href="/htmlSource/portfolio/index.html">Single Page Portfolio</a>
                                 <hr />

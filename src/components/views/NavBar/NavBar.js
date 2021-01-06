@@ -1,28 +1,29 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function NavBar() {
     return (
         <div>
-            <div class="nav-wrapper">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="/">HMG</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+            <div className="nav-wrapper">
+                <div className="container">
+                    <nav className="navbar navbar-expand-lg navbar-light">
+                        <Link className="navbar-brand" to="/">HMG</Link>
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/">Home</a>
+                        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul className="navbar-nav">
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/">Home</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/aboutme">AboutMe</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/aboutme">AboutMe</Link>
                                 </li>                               
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/works">Works</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/works">Works</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/contact">Contact</a>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/contact">Contact</Link>
                                 </li>
                             </ul>
                         </div>

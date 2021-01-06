@@ -7,21 +7,21 @@ function WorksList(props) {
     }
 
     return (
-        <div class="col-lg-4 p-2">
-            <div class="card">
-                <img class="card-img-top" src={props.imgUrl} alt="works image" style={{ width: "100%" }} />               
-                <div class="card-body">
-                    <h4 class="card-title">{props.title}</h4>
+        <div className="col-lg-4 p-2">
+            <div className="card">
+                <img className="card-img-top" src={props.imgUrl} alt="works image" style={{ width: "100%" }} />               
+                <div className="card-body">
+                    <h4 className="card-title">{props.title}</h4>
                     <hr />
                     <p><b>SKILLS</b></p>
                     <p>{props.skills}</p>
                     <p><b>DESCRIBE</b></p>
-                    <p class="card-text">{props.describe}</p>          
+                    <p className="card-text">{props.describe}</p>          
                     {!props.m &&
-                        <a href={props.url} class="btn btn-works stretched-link">VIEW</a>
+                        <a href={props.url} className="btn btn-works stretched-link">VIEW</a>
                     }
                     {props.m &&
-                        <a onClick={() => openInWindow(props.url)} class="btn btn-works stretched-link">VIEW</a>
+                        <a onClick={() => openInWindow(props.url)} className="btn btn-works stretched-link">VIEW</a>
                     }          
                 </div>
             </div>
