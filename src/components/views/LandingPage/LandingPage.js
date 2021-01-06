@@ -16,7 +16,7 @@ function LandingPage() {
                         <div className="col-lg-6">
                             <div className="container">
                                 <p><b>Non React Version</b></p>
-                                <a href="/htmlSource/portfolio/index.html">Single Page Portfolio</a>
+                                <a href={process.env.PUBLIC_URL+`/htmlSource/portfolio/index.html`}>Single Page Portfolio</a>
                                 <hr />
 
                                 <p><b>GitHub Profile</b></p>
