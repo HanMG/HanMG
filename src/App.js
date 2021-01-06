@@ -20,10 +20,10 @@ function App() {
       <NavBar />
       <div id="content">        
         <Switch>
-          <Route exact path="/" component={LandingPage} />                      
-          <Route path="/aboutme" component={AboutMePage} />                               
-          <Route path="/works" component={WorksPage} />     
-          <Route path="/contact" component={ContactPage} />        
+          <Route exact path="/react-portfolio/" component={LandingPage} />                      
+          <Route path="react-portfolio/aboutme" component={AboutMePage} />                               
+          <Route path="/react-portfolio/works" component={WorksPage} />     
+          <Route path="/react-portfolio/contact" component={ContactPage} />        
           <Route path='*' component={NotFoundPage} />             
         </Switch>
       </div>
