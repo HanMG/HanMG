@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <title>HMG's WebPublisher portfolio</title>
     <link rel="stylesheet" href="css/index.css?ver=1">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="js/index.js?ver=1"></script>
 
     <script src="js/jquery.vide.min.js"></script>
@@ -57,7 +58,8 @@
         </div>
         <div class="page_desc">
             <p>이 페이지는 <span class="point">크롬, 파이어폭스, 오페라, 익스플로러 9 이상</span>에서 작동하며, 가로 길이가 767px, 1300px</span>에서 바뀌는
-                <span class="bigger">반응형</span>사이트 입니다.</p>
+                <span class="bigger">반응형</span>사이트 입니다.
+            </p>
         </div>
         <div id="about">
             <div class="inner">
@@ -86,7 +88,7 @@
                             <p class="intro"><strong>SKILL</strong><br>HTML, CSS, Javascript, JQuery</p>
                             <p class="content"><strong>DESCRIBE</strong><br>Naver Company Page Coding</p>
                             <p class="detail"><strong>DETAIL</strong><br>Mainpage, Subpage [ 회사소개 ]</p>
-                        </div><a href="http://heroes47.woobi.co.kr/naver" target="_blank"><img
+                        </div><a href="../naver/index.html" target="_blank"><img
                                 src="images/naver_16-9.jpg" alt="Naver"></a>
                     </li>
                     <li>
@@ -94,7 +96,7 @@
                             <h4>LS Mall</h4>
                             <p class="intro"><strong>SKILL</strong><br>HTML, CSS, Jquery</p>
                             <p class="content"><strong>DESCRIBE</strong><br>LS Mall Main Page Coding</p>
-                        </div><a href="http://heroes47.woobi.co.kr/lsmall" target="_blank"><img
+                        </div><a href="../lsmall/index.html" target="_blank"><img
                                 src="images/lsnmall_16-9.jpg" alt="lsmall"></a>
                     </li>
                     <li>
@@ -102,7 +104,7 @@
                             <h4>SK hynix</h4>
                             <p class="intro"><strong>SKILL</strong><br>HTML, CSS</p>
                             <p class="content"><strong>DESCRIBE</strong><br>SK Hynix Main Page Coding</p>
-                        </div><a href="http://heroes47.woobi.co.kr/skhynix" target="_blank"><img
+                        </div><a href="../skhynix/index.html" target="_blank"><img
                                 src="images/skhynix_16-9.jpg" alt="skhynix"></a>
                     </li>
                     <li>
@@ -110,7 +112,7 @@
                             <h4>TAKE LTE</h4>
                             <p class="intro"><strong>SKILL</strong><br>HTML, CSS</p>
                             <p class="content"><strong>DESCRIBE</strong><br>KT M&amp;S Main Page Coding</p>
-                        </div><a href="http://heroes47.woobi.co.kr/takelte" target="_blank"><img
+                        </div><a href="../takelte/index.html" target="_blank"><img
                                 src="images/take_lte_16-9.jpg" alt="takeLte"></a>
                     </li>
                     <li>
@@ -118,7 +120,7 @@
                             <h4>Lotte Lab</h4>
                             <p class="intro"><strong>SKILL</strong><br>HTML, CSS, Javascript, JQuery</p>
                             <p class="content"><strong>DESCRIBE</strong><br>Lotte lab Main Page Coding</p>
-                        </div><a href="http://heroes47.woobi.co.kr/lottelab" target="_blank"><img
+                        </div><a href="../lottelab/index.html" target="_blank"><img
                                 src="images/lottelab_16-9.jpg" alt="lotteLAB"></a>
                     </li>
                     <li>
@@ -129,7 +131,7 @@
                             <p class="detail"><strong>DETAIL</strong><br>Mainpage, Subpage [ Company, Newproduct, Ceo ]
                             </p>
                         </div><a href="#" target="_blank"
-                            onclick="window.open('http://m.heroes47.woobi.co.kr/orion_bs','','width=500,height=800,left=400,top=100'); return false; "><img
+                            onclick="window.open('../m/orion/index.html','','width=500,height=800,left=400,top=100'); return false; "><img
                                 src="images/maket0_16-9.jpg" alt=""></a>
                     </li>
                     <li>
@@ -137,7 +139,7 @@
                             <h4>Potenit</h4>
                             <p class="intro"><strong>SKILL</strong><br>HTML, CSS, Bootstrap4</p>
                             <p class="content"><strong>DESCRIBE</strong><br>Potenit Responsive Site</p>
-                        </div><a href="http://heroes47.woobi.co.kr/potenit" target="_blank"><img
+                        </div><a href="../potenit/index.html" target="_blank"><img
                                 src="images/potenit_16-9.jpg" alt="potenit"></a>
                     </li>
                     <li>
@@ -155,13 +157,13 @@
                 <h3>CONTACT</h3>
                 <h4 class="blind">전화번호 및 주소</h4>
                 <ul>
-                    <li><span class="ion-ios-location-outline"></span>
+                    <li><ion-icon name="location-outline"></ion-icon>
                         <p>GURO, SEOUL</p>
                     </li>
-                    <li><span class="ion-ios-telephone-outline"></span>
+                    <li><ion-icon name="call-outline"></ion-icon></span>
                         <p>010 . 9220 . 8169</p>
                     </li>
-                    <li><span class="ion-ios-email-outline"></span>
+                    <li><ion-icon name="mail-outline"></ion-icon>
                         <p>HANMOONGOO @ gmail.com</p>
                     </li>
                 </ul>

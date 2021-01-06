@@ -8,7 +8,9 @@
         img { vertical-align:top; }
         table { border-collapse:collapse; }
         a {text-decoration: none;}
-        .ion-social-twitter {font-size: 20px; margin-left: 5px; cursor: pointer;}
+        ion-icon {font-size: 20px; margin-left: 5px; cursor: pointer;}    
+        ion-icon.down { font-size: 12px;}
+        .twitterP { padding: 5px;}
         .skip_navigation a { position:absolute; top:-9999px; font-size:0; }
         .skip_navigation a:focus { top:0; left: 0%; width: 100%; padding:10px; font-size:14px; color:white; background-color:#168eea; text-align: center; z-index: 10000;}
         .blind { position:absolute; top:-9999px; font-size:0; }
