@@ -1,6 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route  
 } from "react-router-dom";
@@ -16,7 +17,7 @@ import NotFoundPage from "./components/views/Commons/NotFoundPage"
 
 function App() {  
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <NavBar />
       <div id="content">        
         <Switch>
@@ -28,7 +29,7 @@ function App() {
         </Switch>
       </div>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 export default App;
