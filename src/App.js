@@ -16,7 +16,7 @@ import NotFoundPage from "./components/views/Commons/NotFoundPage"
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar />
       <div id="content">        
         <Switch>
