@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/* reset */
+html,body { width:100%; height:100%; }
+body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,button,input { margin:0; padding:0; }
+body,h1,h2,h3,h4,input,button { font-size:12px; }
+ul,li,ol { list-style:none; }
+img,fieldset,iframe { border:0; }
+img { vertical-align:top; }
+table { border-collapse:collapse; }
+a {text-decoration: none;}
+
+/* base */
+body { font-family:"나눔고딕","돋움"; font-size:11px; }
+
+/* layout */
+#header { position: relative; height:99px; border-bottom:2px solid red;}
+#header .inner { margin:0 auto; width:970px; height:99px; }
+
+#footer { position: relative; height:99px;  }
+#footer .inner { position: relative; margin:0 auto; width:970px; height:102px;  }
+
+/*header*/
+#header .inner h1 {position: relative; left: 0px; top:49px;}
+#header .inner .gnb {position: relative; top:34px; left: 223px; width:390px;}
+#header .inner .gnb li {float: left; margin-right: 36px; }
+#header .inner .gnb li:last-child{margin-right: 0px;}
+#header .inner .top_gnb {position: relative; top:35px; left: 290px; }
+#header .inner .top_gnb li {float: left; margin-left: 19px; }
+#header .inner .top_gnb li:first-child{margin-left: 0px;}
+#header .inner .top_gnb .bar{width:1px; height:14px; background: url(../images/top_gnb_bar.jpg); }
+#header .inner .top_gnb li img{vertical-align: middle;}
+
+
+/*footer*/
+#footer .inner h2{float: left; margin-top:29px; margin-right: 20px;}
+#footer .inner .f_link img{float: left; margin-right: 11px; margin-top: 32px;}
+#footer .inner .address img{position: relative; left:-120px; top:46px;} 
+#footer .inner .mail a {position: relative; right: -370px; top:33px; }
+#footer .inner .copyright img{position: relative; left:-120px; top:35px;} 
+#footer .inner form select {position: absolute; right:0px; top:35px; width: 178px; height: 18px;}
+
+/*blind*/
+.blind {position: absolute; top:-9999px;}
+.skip_navigation a { position:absolute; top:-9999px; }
+.skip_navigation a:focus { position:absolute; left:0px; top:0px; width: 100%;  padding: 5px;  background:red; color:white; font-size:14px; text-align: center;}

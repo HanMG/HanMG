@@ -1,0 +1,30 @@
+        /*----visual----*/
+        #visual {height: 402px; background: green; overflow: hidden;}
+        
+        
+        /*----contents----*/
+        #contents {position: relative; height: 321px; border-bottom: 1px solid #e4e4e4; overflow: hidden; }
+        #contents .sec_top {height: 50px; border-bottom: 1px solid #e4e4e4;}
+        #contents .sec_top img{padding-top: 16px;}
+        #contents .sec_top .news { position: relative;  left: 92px; top: -16px; }
+        #contents .sec_top .news a {color: #7f7f7f;}
+        #contents .sec_top .news a:hover {text-decoration: underline; color:green;}
+        #contents .sec_top .new strong {color: black;}
+        #contents .sec_top .news .date {position: relative;  margin-left: 24px; font-size: 10px;}
+        #contents .news_btn_box {position: relative;  top: -11px; left:420px;}
+        #contents .sec_top .stock {position: relative; top:-33px; left: 535px;}
+        #contents .sec_top .stock img {position: relative; top: -14px; margin-left: 12px;}
+        #contents .sec_top .stock .stock_contents {position: absolute; top: -14px; margin-left: 12px;}
+        #contents .sec_bottom {height: 243px;}     
+        #contents .sec_bottom:after {clear: both; display: block; content: "";}
+        .sec_bottom .bottom_left { position: relative; left: -31px; background: red; }
+        .sec_bottom .bottom_left ul li {float: left; margin-right: 25px; border-bottom: 2px solid #333;}        
+        .sec_bottom .bottom_left ul li:last-child { margin-right: 0;}
+        .sec_bottom .bottom_right {position: relative;  width: 360px; left: 580px; bottom:162px; border-bottom: 2px solid #333;}
+        .sec_bottom .bottom_right ul li {float: left; border-bottom: 2px solid #333;}
+        .sec_bottom .bottom_right ul li:first-child {border-bottom: none;}
+        .sec_bottom .bottom_right p {float:right; border-bottom: none; color: #a4a4a4;}
+        .bottom_btn_box { position: relative; left: -25px; top: 170px;}
+        .btn_box a { float: left;}
+        a.left_btn{display:block;overflow:hidden;position:relative;width:12px;height:12px;margin:-1px;padding:1px;font-size:12px; background: url(images/btn.png);background-position:0 0; margin-right: 5px;}   
+        a.right_btn{display:block;overflow:hidden;position:relative;width:12px;height:12px;margin:-1px;padding:1px;font-size:12px; background: url(images/btn.png); background-position:-20px 0 }

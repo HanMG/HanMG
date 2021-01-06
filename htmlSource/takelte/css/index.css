@@ -1,0 +1,86 @@
+@import url(common.css);
+#visual {
+    height: 547px;
+    background: url(../images/bg.jpg);
+}
+
+#visual .inner {
+    margin: 0 auto;
+    width: 970px;
+    height: 550px;
+}
+
+#contents {
+    height: 167px;
+    background: url(../images/bg_contents.jpg);
+}
+
+#contents .inner {
+    margin: 0 auto;
+    width: 970px;
+    height: 167px;
+    overflow: hidden;
+}
+
+#contents:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*contents*/
+
+#contents .section1 {
+    float: left;
+    width: 530px;
+    height: 167px;
+}
+
+#contents .section1 a {
+    color: #999999;
+}
+
+#contents .section1 a:hover {
+    color: orange;
+}
+
+#contents .section1 img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#contents .section1 .subject p {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+#contents .section1 .subject span {
+    float: right;
+    margin-right: 30px;
+    font-size: 11px;
+}
+
+#contents .section2 {
+    float: left;
+    width: 110px;
+    height: 167px;
+}
+
+#contents .section3 {
+    float: left;
+    width: 110px;
+    height: 167px;
+}
+
+#contents .section4 {
+    float: left;
+    width: 110px;
+    height: 167px;
+}
+
+#contents .section5 {
+    float: left;
+    width: 110px;
+    height: 167px;
+}

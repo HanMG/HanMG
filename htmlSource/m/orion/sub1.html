@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<title>Company</title>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<link href="css/sub1.css" rel="stylesheet" type="text/css">
+<link href="css/swiper.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/default.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+
+</head>
+
+
+<body>
+
+
+<div class="skip_nav">
+	<a href="#container">본문바로가기</a>
+</div>
+
+
+<header>
+
+	<h1><a href="index.html"><img src="images/main_logo.png" alt="orion"></a></h1>
+
+	<nav class="gnb">
+		<a href="#" class="gnb_btn"><i class="material-icons">menu</i></a>
+      <!--[if IE]> 
+          <i class="material-icons">&#xE5D2;</i>
+      <![endif]-->
+       
+        <a href="#" class="lang_btn"><i class="material-icons">language</i></a>
+        <!--[if IE]>
+             <i class="material-icons">&#xE894;</i>
+        <![endif]-->
+        
+        <h2 class="blind">주메뉴</h2>
+		<ul class="gnb_list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sub1.html">Company</a></li>
+			<li><a href="sub2.html">New Product</a></li>
+			<li><a href="#">Market O</a></li>
+			<li><a href="#">Dr.you</a></li>
+			<li><a href="#">Power Brand</a></li>
+			<li><a href="#">Customer</a></li>			
+			<li class="close"><a href="#"><img src="images/close.png" alt="close"></a></li>
+		</ul>
+		<h2 class="blind">언어선택</h2>
+		<ul class="lang_list">
+            <li><a href="#">Korean</a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Russian</a></li>
+		    <li><a href="#">Chinese</a></li>
+		    <li><a href="#">japanese</a></li>
+		    <li class="close_lang"><a href="#"><img src="images/close.png" alt="close_lang"></a></li>
+		</ul>
+	</nav>
+</header>
+
+
+<div id="container">   
+      <h2 class="blind">내부메뉴</h2> 
+      <div id="sub_title_container">
+          <form action="#">
+             <!--셀렉트한 페이지로 이동-->
+              <select name="title_select" id="sub_title" onchange="if(this.value) location.href=(this.value);">
+                  <option value="index.html">Home</option>
+                  <option value="sub1.html" selected>Company</option>
+                  <option value="sub2.html">New Product</option>
+                  <option value="#l">Market O</option>
+                  <option value="#">Dr.you</option>
+                  <option value="#">Power Brand</option>
+                  <option value="#">Customer</option>
+              </select>
+          </form>
+      </div> 
+      <h2 class="blind">하위메뉴</h2>
+      <div id="sub_btn_container">
+             <ul id="sub_btn">
+                 <li><a href="sub1-1.html"><img src="images/sub1-1.jpg" alt=""></a><p>CEO</p></li>
+                 <li><a href="#"><img src="images/sub1-2.jpg" alt=""></a><p>ABOUT</p></li>
+                 <li><a href="#"><img src="images/sub1-3.jpg" alt=""></a><p>IR</p></li>
+                 <li><a href="#"><img src="images/sub1-4.jpg" alt=""></a><p>PR</p></li>
+                 <li><a href="#"><img src="images/sub1-5.jpg" alt=""></a><p>RECRUIT</p></li>
+                 <li><a href="#"><img src="images/sub1-6.jpg" alt=""></a><p>LOCATION</p></li>
+             </ul>   
+      </div>
+    
+     <div id="personal_link">
+            <ul>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">이메일주소수집거부</a></li>
+            </ul>
+    </div>
+</div>
+
+<footer>
+    <h2 class="blind">저작권자 정보</h2>
+	<p class="copyright">copyright (c) ORION CORP all right reserved</p>    
+</footer>
+
+<!--jquery-->
+<!--gnb, lang  list 액션-->
+<script>
+    $(function (){
+   
+    
+    //gnb_list 액션
+   $('.gnb_list li').mouseenter(function(){    
+    $(this).css({background:"#ff6b66"});
+   });
+  $('.gnb_list li').mouseout(function(){
+    $(this).css({background:0});        
+   });
+   $('.gnb_list .close').mouseenter(function(){
+    $(this).css({background:0});
+   })
+   
+   
+   //lang_list 액션
+   $('.lang_list li').mouseenter(function(){     
+        $(this).css({background:"#ff6b66"});       
+   });
+  $('.lang_list li').mouseout(function(){
+    $(this).css({background:0});        
+   });
+   $('.lang_list .close_lang').mouseenter(function(){
+    $(this).css({background:0});
+   })
+});
+</script>
+
+</body>
+
+
+
+</html>
+
+
