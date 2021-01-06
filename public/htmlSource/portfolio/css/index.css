@@ -68,7 +68,7 @@
     #contact .inner { width: 70%; margin:0 auto; }
     #contact .inner h3{position: relative; width : 50%; margin: 0 auto; font-size: 60px; text-align: center; color: #2C3E50; top: 300px; margin-bottom: 100px;  }    
     #contact .inner ul li {position: relative; top: 300px; float : left; text-align: center;  width: 33.33%; }
-    #contact .inner ul li span { font-size: 60px;}
+    #contact .inner ul li ion-icon { font-size: 60px; padding: 10px;}
     
     /*footer*/
     #footer {position: relative; background: #2C3E50; height: 100px; width:100%; color: #ECF0F1; z-index: 10;}

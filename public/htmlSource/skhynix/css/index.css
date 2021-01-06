@@ -60,3 +60,5 @@
         #container2 .inner .area2 .contents .sec4 .icon {width:58px; height: 58px; background: url("../images/fair_trade.jpg") no-repeat;}
         #container2 .inner .area2 .contents .sec5 .icon {width:58px; height: 58px; background: url("../images/nature_product.jpg") no-repeat;}
         #container2 .inner .area2 .contents .sec6 .icon {width:58px; height: 58px; background: url("../images/2016_report.jpg") no-repeat;}
+
+        ion-icon{ font-size: 24px;}

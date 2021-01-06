@@ -36,7 +36,7 @@
     .items li { margin:0 10px;}
     .cir {width: 40px; height: 40px; border-radius: 50%; background: rgba(0,0,0,0.4); z-index: 20; }
     .cir:hover {background: rgba(0,0,0,0.8);}   
-    .cir span {position: relative; top: 2px; color: white; font-size: 24px; margin: 12px;}
+    .cir ion-icon {position: relative; color: white; font-size: 24px; margin: 12px;}
     .active {background: red; color: white;}
     
     
