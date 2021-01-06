@@ -9,7 +9,7 @@ function WorksList(props) {
     return (
         <div class="col-lg-4 p-2">
             <div class="card">
-                <img class="card-img-top" src={props.imgUrl} alt="Card image" style={{ width: "100%" }} />               
+                <img class="card-img-top" src={props.imgUrl} alt="works image" style={{ width: "100%" }} />               
                 <div class="card-body">
                     <h4 class="card-title">{props.title}</h4>
                     <hr />

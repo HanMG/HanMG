@@ -14,9 +14,9 @@ import Footer from "./components/views/Footer/Footer"
 import NotFoundPage from "./components/views/Commons/NotFoundPage"
 
 
-function App() {
+function App() {  
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/react-portfolio'>
       <NavBar />
       <div id="content">        
         <Switch>
