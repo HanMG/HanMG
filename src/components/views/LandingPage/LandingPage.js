@@ -23,7 +23,7 @@ function LandingPage() {
                                 <a href="https://github.com/HanMG">https://github.com/HanMG</a>
                                 <hr />
                                 <p><b>Github Graph</b></p>
-                                <GitHubCalendar username="HanMG" showTotalCount={false} />
+                                <GitHubCalendar username="hanmg" showTotalCount={false} />
                             </div>
                         </div>
                     </div>
