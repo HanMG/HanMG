@@ -1,0 +1,14 @@
+@import url(common.css);
+
+
+/* sub2 */
+#sub_title_container {margin: 0 auto; width: 90%;  margin-top: 20px; margin-bottom: 30px; }
+#sub_title { width:100%; min-height: 80px; vertical-align: center; background: #ed1b29; color:white; border-radius: 10px; font-size: 40px;text-align: center; text-align-last: center; outline: none; }
+
+#new_product_container {width: 90%; margin: 0 auto;}
+
+.new_product_list li{border: 2px solid #ed1b29; margin-bottom: 10px; text-align: center; font-weight: bold;}
+.new_product_list li:last-child {margin-bottom: 30px;}
+.new_product_list img {width:  60%;}
+.new_product_list p {background: #ed1b29; color: white;}
+

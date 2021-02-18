@@ -1,0 +1,64 @@
+@import url(common.css);
+
+        /*visual*/
+        #visual {position: relative; height: 650px;background: blue; background: url(../images/visual.jpg);}
+        #visual .inner{position:relative; margin: 0 auto; width: 1020px; height: 650px; } 
+        #visual .inner .typo1 { position: absolute; top:140px; font-size:53px; font-weight: bold; color:white; }
+        #visual .inner .typo2 { position: absolute; top: 280px; font-size:18px;color:white; }
+        #visual .visual_bar {position: absolute; bottom: 0px; background: rgba(255,107,102,0.7); width:100%; height: 60px; }
+        #visual .visual_bar .bar_inner{position:relative; margin: 0 auto; width:1020px;  }
+        #visual .visual_bar .bar_inner li{float:left; margin: 0px 99px; text-align: center; padding: 10px;}
+        #visual .visual_bar .bar_inner li:last-child {margin-right:80px;}
+        #visual .visual_bar .bar_inner li a {color: white;}    
+        #visual .visual_bar .bar_inner li a:hover {text-decoration: underline;}
+        #visual .visual_bar .bar_inner li a span{font-size:25px;}      
+        
+        /*container*/        
+        #container {height: 521px;}        
+        #container .inner { margin: 0 auto; width: 1020px; height: 1034px; }
+       
+        #container .inner .area1{ height: 521px; width: 1020px;}
+        #container .inner .area1 .header {height:172px;  text-align: center; border-bottom: 1px solid #eaeaea;}
+        #container .inner .area1 .header h2 {font-size: 25px; color: #333333; padding-top:66px; padding-bottom:24px;}
+        #container .inner .area1 .header p {font-size:13px; color:#666666; }
+        #container .inner .area1 .contents {position: relative; height: 348px; }
+        #container .inner .area1 .contents .stock_visual {float: left; border-right:1px solid #eaeaea;}
+        #container .inner .area1 .contents .investor_menu {position:relative;float: left; width: 613px;height:348px; }  
+        #container .inner .area1 .contents .investor_menu div {float: left;text-align: center; }
+        #container .inner .area1 .contents .investor_menu div a {color:#555555; font-weight: bold;}
+        #container .inner .area1 .contents .investor_menu div a:hover {text-decoration: underline;}
+        #container .inner .area1 .contents .investor_menu div i {font-size:35px; margin-bottom: 17px; color: #eb6655;}
+        #container .inner .area1 .contents .investor_menu .menu1 {position: relative; top:30px; left:90px; }
+        #container .inner .area1 .contents .investor_menu .menu2 {position: relative; top:30px; left:260px;}
+        #container .inner .area1 .contents .investor_menu .menu3 {position: relative; top:30px; left:420px;}
+        #container .inner .area1 .contents .investor_menu .menu4 {position: relative; top:165px; left:-55px;}
+        #container .inner .area1 .contents .investor_menu .menu5 {position: relative; top:165px; left:100px;}
+        #container .inner .area1 .contents .investor_menu .menu6 {position: relative; top:165px; left:250px;}
+        
+        #container2 {height: 514px; background: #f9f7f7;} 
+        #container2 .inner {height: 514px; width: 1020px; margin: 0 auto;}
+        #container2 .inner .area2{height: 514px; }
+        
+        #container2 .inner .area2 .header {height:196px; text-align: center; border-bottom: 1px solid #eaeaea;}
+        #container2 .inner .area2 .header h2 {font-size: 25px; color: #333333; padding-top:66px; padding-bottom:24px;}
+        #container2 .inner .area2 .header p {font-size:13px; color:#666666; line-height: 20px;}
+        #container2 .inner .area2 .contents {position: relative; height:317px;}
+        #container2 .inner .area2 .contents .sec1:hover dt{text-decoration: underline;}
+        #container2 .inner .area2 .contents .sec2:hover dt{text-decoration: underline;}
+        #container2 .inner .area2 .contents .sec3:hover dt{text-decoration: underline;}
+        #container2 .inner .area2 .contents .sec4:hover dt{text-decoration: underline;}
+        #container2 .inner .area2 .contents .sec5:hover dt{text-decoration: underline;}
+        #container2 .inner .area2 .contents .sec6:hover dt{text-decoration: underline;}
+        #container2 .inner .area2 .contents div {position:relative; float:left; width: 30%; margin-top: 43px; margin-right: 34px; }        
+        #container2 .inner .area2 .contents div dt {font-size:15px; font-weight: bold; color: #333333; margin-top: 10px; margin-bottom: 10px; }        
+        #container2 .inner .area2 .contents div dd{color:#666666; line-height: 20px;}
+        #container2 .inner .area2 .contents .sec6 dd {color:red;}        
+        #container2 .inner .area2 .contents div div{margin: 15px;}
+        #container2 .inner .area2 .contents .sec1 .icon {width:58px; height: 58px; background: url("../images/moral_manage.jpg") no-repeat;}
+        #container2 .inner .area2 .contents .sec2 .icon {width:58px; height: 58px; background: url("../images/nature_manage.jpg") no-repeat;}
+        #container2 .inner .area2 .contents .sec3 .icon {width:58px; height: 58px; background: url("../images/society.jpg") no-repeat;}
+        #container2 .inner .area2 .contents .sec4 .icon {width:58px; height: 58px; background: url("../images/fair_trade.jpg") no-repeat;}
+        #container2 .inner .area2 .contents .sec5 .icon {width:58px; height: 58px; background: url("../images/nature_product.jpg") no-repeat;}
+        #container2 .inner .area2 .contents .sec6 .icon {width:58px; height: 58px; background: url("../images/2016_report.jpg") no-repeat;}
+
+        ion-icon{ font-size: 24px;}

@@ -1,0 +1,17 @@
+@import url(common.css);
+
+
+/* sub1-1 */
+#sub_title_container {margin: 0 auto; width: 90%;  margin-top: 20px; margin-bottom: 10px; }
+#sub_title { width:100%; min-height: 80px; vertical-align: center; background: #ed1b29; color:white; border-radius: 10px; font-size: 40px;text-align: center; text-align-last: center; outline: none; }
+
+#sub_ceo {margin: 0 auto; width: 90%; margin-top:20px; margin-bottom: 20px; }
+#sub_ceo:after {display: block; content:""; clear: both;}
+#sub_ceo p{margin-bottom: 10px;}
+
+#sub_ceo img{width: 30%; float:right;}
+#sub_ceo .signature {width: 30%; position: relative; left:-35%;}
+#sub_ceo .empha {font-size:15px; font-weight: bold; color:black; margin-bottom: 10px;}
+#sub_ceo .red {color: #ed1b29; font-size: 20px; margin:20px 0 20px 0; line-height: 30px;}
+#sub_ceo .red_empha{font-size: 25px; font-weight: bold; margin-bottom: 10px;}
+

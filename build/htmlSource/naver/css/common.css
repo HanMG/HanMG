@@ -1,0 +1,70 @@
+        /* reset */
+        html,body { width:100%; height:100%; }
+        
+        body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,button,input { margin:0; padding:0; }
+        body,h1,h2,h3,h4,input,button { font-size:12px; }
+        ul,li,ol { list-style:none; }
+        img,fieldset,iframe { border:0; }
+        img { vertical-align:top; }
+        table { border-collapse:collapse; }
+        a {text-decoration: none;}
+        ion-icon {font-size: 20px; margin-left: 5px; cursor: pointer;}    
+        ion-icon.down { font-size: 12px;}
+        .twitterP { padding: 5px;}
+        .skip_navigation a { position:absolute; top:-9999px; font-size:0; }
+        .skip_navigation a:focus { top:0; left: 0%; width: 100%; padding:10px; font-size:14px; color:white; background-color:#168eea; text-align: center; z-index: 10000;}
+        .blind { position:absolute; top:-9999px; font-size:0; }
+        
+        .inner { width:  940px; margin:0 auto;  position: relative;}
+        .inner:after {clear: both; display: block; content: "";}
+        
+          /*----------------------header---------------------*/
+        #header {height: 99px; background: white;}
+        #header h1 {position: relative; top: 36px;}
+        #header .gnb {position: relative; top: 20px; left: 179px; }
+        #header .gnb a{ color:#434449; font-size: 16px; font-weight:bolder;}      
+        #header .gnb li{float: left; margin-right: 36px; padding-bottom: 20px;}
+        
+        #header .gnb li:last-child { margin-right: 0;}
+        #header .etc_gnb {position: relative; top: 25px; left: 216px; line-height: 20px; }
+        #header .etc_gnb a {color: #a1a2a3;}
+        #header .etc_gnb li{float: left; width: 66px; padding: 0 0 10px 10px;  }
+        #header .etc_gnb li:nth-child(3) {width: 108px;  margin-right: 0;}
+        #header .etc_gnb .global {cursor: pointer; }
+        #header .etc_gnb .global img {margin-right: 7px; }
+        #header .etc_gnb .lang {width: 102px; border-radius: 5px; border: 1px solid #e4e4e4; text-align: center; margin: 0; cursor: pointer; padding:2px; }
+        
+        #header .sub_common {background: #fafafa; display:none; border-top: 2px solid #67d052; border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+        #header .sub {position: absolute; top: 30px; left: -10px; z-index: 100;}
+        #header .sub a {font-size: 12px; font-weight: 400;}
+        #header .sub ul {float:left; padding:5px;}
+        #header .sub ul li {margin: 0 5px; width: 100px;}        
+        #header .sub .col1 {width: 90px;}
+        #header .sub .col2 {width: 120px;}
+        #header .sub .col3 {width: 100px;}
+        
+        #header .global_sub {position:absolute; top: 25px; z-index:100;}
+        #header .global_sub li {float: none; width: 80px; margin: 5px 0; border-right: 0;}
+        #header .lang_sub {position: absolute; top: 25px; z-index:100;}
+        #header .lang_sub li {float:none; width: 100px; margin: 5px 0; border-right: 0; padding: 2px;}
+        
+        /*----footer----*/
+        #footer {position: relative; height: 131px;border-top: 1px solid #f1f1f1; box-sizing: border-box; }
+        #footer_line h3 {position: relative; top:25px;}
+        #footer_line a {color: #a4a4a4;}        
+        #footer_line ul {position: relative; left:100px; top: 10px;}
+        #footer_line ul li {float: left; margin-right: 18px;}
+        #footer_line ul li:nth-child(1) :hover {color: #333; }
+        #footer_line ul li:nth-child(2) :hover {color: #333; }        
+        #footer_line ul li div {color: #a4a4a4;}
+        #footer_line ul li:nth-child(4) {margin-left: 235px;}
+        #footer_line ul .family {border:1px solid #e4e4e4;}
+        #footer_line ul .family a {padding: 4px;}
+        #footer_line .private {font-weight: bolder; color: #333;}
+        #footer_line .ion-arrow-down-b {margin-left: 5px;}
+        #footer_line .ion-arrow-up-b {margin-left: 5px;}
+        #footer_line .family .family_sub {position: absolute; bottom:0px;z-index:100;
+        background: #fafafa; border-bottom: 2px solid #67d052; border-top-left-radius: 5px;border-top-right-radius: 5px; display: none; }
+        #footer #footer_line .family_sub ul {left:0;}
+        #footer .family_sub ul li {float:none; width: 100px; margin: 8px 5px; border-right: 0; padding: 2px; padding-left: 0;}
+        #address p {position: absolute; top:60px; left:100px; font-size: 10px; color:#a4a4a4; }

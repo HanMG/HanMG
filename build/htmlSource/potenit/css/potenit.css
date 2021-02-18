@@ -1,0 +1,333 @@
+html {
+    background: #f2f2f2
+}
+
+body {
+    background: 0 0
+}
+
+b.t_blue {
+    color: #06c
+}
+
+footer {
+    background: #06c
+}
+
+#about {
+    background: rgba(51, 102, 153, .6)
+}
+
+#mainNav,
+#mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #06c
+}
+
+#mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(0, 102, 204, .3)
+}
+
+#map {
+    width: 100%;
+    height: 450px
+}
+
+#products,
+#technology {
+    background: rgba(0, 51, 51, .6)
+}
+
+#services {
+    background: rgba(51, 102, 153, .6)
+}
+
+#customers {
+    background: #fff
+}
+
+#contact {
+    background: rgba(0, 0, 0, .4)
+}
+
+.all-sub-content {
+    background: #fff;
+    margin-top: 80px;
+    padding: 15px;
+    color: #333
+}
+
+.btn-default,
+.btn-default-even {
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.btn-default-even:focus,
+.btn-default-even:hover {
+    color: #fff;
+    border: 1px solid #9cc;
+    outline: 0;
+    background-color: #9cc
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    color: #fff;
+    border: 1px solid #6cf;
+    outline: 0;
+    background-color: #6cf
+}
+
+.btn-color {
+    background: #0B3EE3
+}
+
+.content-img {
+    border: 1px solid #000
+}
+
+.content-section {
+    padding-top: 110px;
+    padding-bottom: 110px
+}
+
+video.content-video {
+    width: 100%!important;
+    height: auto!important;
+    max-height: 60vh;
+    z-index: 0
+}
+
+.portfolio-item {
+    margin: 30px 0
+}
+
+.card,
+.card-body,
+.portfolio-item {
+    background: 0 0
+}
+
+.card {
+    border: none
+}
+
+.container-sitemap,
+.f_sitemap_title {
+    border-bottom: 1px solid #fff
+}
+
+.list-group-item.active {
+    background: #06c
+}
+
+.potenit {
+    color: #09f
+}
+
+.fa-angle-right {
+    line-height: 1.5rem
+}
+
+.on-page {
+    background: rgba(0, 0, 0, .5)
+}
+
+.img-full {
+    width: 100%
+}
+
+.dropdown-menu {
+    background: #09f
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background: rgba(0, 0, 0, .5)
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background: #09f
+}
+
+.table {
+    background: rgba(0, 0, 0, .1)
+}
+
+.card-content-img {
+    width: 162px;
+    height: 200px;
+    margin: auto!important
+}
+.card-content-img-col{
+    width: auto;
+    height: 200px;
+    margin: auto!important
+}
+
+.card-title {
+    background: #ddd
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+    background: rgba(0, 0, 0, .5)
+}
+
+.highlight-img {
+    width: 150px;
+    height: 50px
+}
+
+.dropdown-item {
+    white-space: normal
+}
+
+.partner-body {
+    background: rgba(255, 255, 255, 1)
+}
+
+.flag {
+    width: 30px;
+    height: 20px
+}
+
+.masthead {
+    width: 100%;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 50px;
+    text-align: left;
+    color: #fff;
+    background: rgba(0, 0, 0, .3)
+}
+
+.masthead .intro-body {
+    vertical-align: middle
+}
+
+.masthead .intro-body .brand-heading {
+    font-size: 36px
+}
+
+.masthead .intro-body .intro-text {
+    font-size: 18px
+}
+
+.f_sitemap {
+    list-style: none;
+    padding-left: 20px
+}
+
+.f_sitemap li {
+    padding: 2px 0;
+    font-size: .85rem
+}
+
+.f_sitemap_title {
+    font-size: 1rem
+}
+
+.f_call {
+    margin-top: 25px
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden
+}
+
+.videoWrapper embed,
+.videoWrapper iframe,
+.videoWrapper object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+
+.fa-facebook-official {
+    font-size: 2rem;
+}
+
+.facebook {
+    margin-top: 25px;
+}
+
+.pro_title {
+    text-align: center;
+    color: #333;
+}
+
+.pro-img {
+    max-width: 255px;
+    height: 230px;
+}
+
+.cate_title {
+    background: #cccccc;
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('../img/background.png') center center / cover no-repeat;
+    }
+    .fullscreen-bg__video {
+        display: none;
+    }
+    .all-sub-content h2 {
+        text-align: center;
+    }
+    .nav-item .nav-link {
+        height: auto;
+    }
+}
+
+@media (min-width:768px) {
+    #mainNav {
+        background: #0066cc;
+    }
+    .masthead {
+        height: 100%;
+        padding: 250px 0;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    .masthead .intro-body .brand-heading {
+        font-size: 36px
+    }
+    .masthead .intro-body .intro-text {
+        font-size: 24px
+    }
+    .nav-item .nav-link {
+        height: 100%;
+    }
+}

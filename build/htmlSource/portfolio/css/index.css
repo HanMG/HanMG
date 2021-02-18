@@ -1,0 +1,132 @@
+ /* reset */
+    html,body { width:100%; height:100%; font-family: 'roboto'; background: black;}
+ 
+    body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,button,input { margin:0; padding:0; }
+    body,h1,h2,h3,h4,input,button { font-size:12px; }
+    ul,li,ol { list-style:none; }
+    img,fieldset,iframe { border:0; }
+    img { vertical-align:top; }
+    table { border-collapse:collapse; }
+    a {text-decoration: none; }   
+    .ion-navicon-round {font-size: 36px;} 
+    .point {color: #ff6b66;}    
+    
+    /*  blind  */
+    .skip_navigation a { position:absolute; top:-9999px; font-size:0; }
+    .skip_navigation a:focus { top:0; left: 0%; width: 100%; padding:10px; font-size:14px; color:white; background-color:#ff6b66; text-align: center; z-index: 30; z-index: 10000;}
+    .blind { position:absolute; top:-9999px; font-size:0; }  
+    
+    
+    /*header*/
+    #header {position: fixed; z-index: 10; background: rgba(44,62,80,0); height: 101px; width:100%; z-index: 100;}    
+    #header .inner {margin: 0 auto; width: 50%; }
+    #header .inner h1 {position: absolute; top: 15px; font-size: 50px; font-weight: 100;}
+    #header .inner h1 a {color:#ECF0F1;}
+    #header .inner .menu_btn {display: none; position: absolute; top: 30px; right: 10%; cursor: pointer;}
+    #header .inner .gnb {width: 50%; float: right;}
+    #header .inner .gnb li {position:relative;  top:50px; float: left; width: 20%; margin-left: 5%; text-align: right;}
+    #header .inner .gnb li a { color: #ECF0F1; font-size:12px; font-family: 'roboto'; font-weight: bold;}
+    
+    #container {position: relative; z-index: 10;}
+   
+   /*home*/
+    #home { height: 960px; overflow: hidden; }
+    #home h2 {position: relative; z-index: 10; width:50%; margin: 0 auto; top:350px; font-size: 100px; text-align: center; color:#ECF0F1; display: none; font-family: 'Pacifico', 'cursive'; }    
+    #home p {position: relative; z-index: 10; width: 50%; margin: 0 auto; top: 400px; font-size: 20px; font-weight: 100; text-align: center; color: #ECF0F1; display: none; }
+    #home .down_arrow {position: absolute; top:700px; left: 50%; z-index: 10; animation: arrow_down 0.5s infinite alternate; color:#ECF0F1; }
+    .inbox {position: fixed; top:0; left:0; z-index: 1; width: 100%; height: 960px;  opacity: 0.5; filter: blur(2px); }
+    .page_desc { position: absolute; top: 880px; right:0; margin-left: 50px; margin-right: 50px; }
+    .page_desc p{color: #ECF0F1; font-size: 10px; font-weight: 100;}
+    .page_desc .bigger {font-size: 12px;}
+    
+    /*about*/
+    #about {background: #ECF0F1; height: 1180px; overflow:hidden; }
+    #about .inner  { width: 50%; margin:0 auto; }
+    #about .inner h3 {position: relative; width : 50%; margin: 0 auto; font-size: 60px; border: 10px solid #ECF0F1; text-align: center; color: #2C3E50; top: 300px; margin-bottom: 100px; }    
+    #about .inner .profile li {position: relative; float: left; color:#2C3E50; width: 48%; top:300px;  font-size: 15px; margin-bottom: 10px; margin-right: 4%;}    
+    #about .inner .profile li:nth-child(odd){font-weight: bold; text-align: right;}
+    #about .inner .profile li:nth-child(even) {text-align: left; margin-right: 0;}
+    /*works*/
+    #works {background: #E74C3C; height: 1800px; overflow:hidden; } 
+    #works .inner { width: 50%; margin:0 auto; }
+    #works .inner h3  {position: relative; width: 50%; margin: 0 auto; font-size: 60px;   text-align: center; color: #ECF0F1; top: 300px; margin-bottom: 100px;}
+    #works .inner ul li {position: relative; top:300px; float: left;  width: 45%; margin-right: 10%; margin-bottom: 5%; cursor: pointer; }   
+    #works .inner ul li:nth-child(even) {margin-right: 0;}    
+    #works .inner ul li:hover .works_info {display: block;}
+    #works .inner ul li:hover img {opacity: 0.1; box-sizing: border-box; border: 2px solid #ECF0F1; }
+    #works .inner ul li .works_info {position: absolute; width: 100%; color:white; display: none; }
+    #works .inner ul li .works_info h4 {position: relative; font-size:20px; left: 10%; top: 20px; }
+    #works .inner ul li .works_info strong {font-size: 14px;}
+    #works .inner ul li .works_info .intro {position: relative; left:10%; padding-top: 10%; }
+    #works .inner ul li .works_info .content {position: relative;  left:10%; margin-top: 20px;}
+    #works .inner ul li .works_info .detail {position: relative; left:10%; margin-top: 20px;}
+    #works .inner ul li img { width: 100%; height: 250px;  }
+    
+    
+    /*contact*/
+    #contact {background: rgba(255,255,255,1);  height: 960px; overflow:hidden; }
+    #contact .inner { width: 70%; margin:0 auto; }
+    #contact .inner h3{position: relative; width : 50%; margin: 0 auto; font-size: 60px; text-align: center; color: #2C3E50; top: 300px; margin-bottom: 100px;  }    
+    #contact .inner ul li {position: relative; top: 300px; float : left; text-align: center;  width: 33.33%; }
+    #contact .inner ul li ion-icon { font-size: 60px; padding: 10px;}
+    
+    /*footer*/
+    #footer {position: relative; background: #2C3E50; height: 100px; width:100%; color: #ECF0F1; z-index: 10;}
+    #footer .inner {position: relative; margin: 0 auto; top:40%;  width:50%; font-size: 13px; text-align: center;}
+    
+    
+    
+    /*-----------------css 애니메이션-------------------*/
+    @keyframes arrow_down { from {top:700px;} to {top:705px;}}
+    
+    
+        
+    
+    /*반응형 변화*/
+    @media all and (max-width:767px) {   /*스마트폰*/
+        .material-icons {font-size: 48px;}
+        .profile ul li{font-size: 10px}   
+        
+     
+        #header .inner{width: 100%; }
+        #header .inner h1 { left: 10%; font-size:40px; top:30px;}
+        #header .inner .gnb {display:none; width: 100%; height: 271px; }       
+        #header .inner .gnb li{width: 100%; top: 101px; border-top: 2px solid #ECF0F1; margin: 0;  text-align: center; background: rgba(44,62,80,1); line-height: 40px; }
+        #header .inner .gnb li:last-child {border-bottom: 2px solid #ECF0F1;}       
+        #header .inner .menu_btn { display: block; color: #ECF0F1;}   
+        
+        #home {height: 1060px;}
+        #home h2 {font-size: 40px; width: 100%;}     
+        #home p {font-size: 16px;}        
+        #about .inner h3 {font-size: 30px;}
+        #about .inner .profile li { width: 100%;}        
+        #about .inner .profile li:nth-child(odd) {text-align: left; border: 1px solid #2C3E50; }
+        #about .inner .profile li:nth-child(even) {text-align: right;}
+        
+        #works {height: 2300px;}
+        #works .inner h3 {font-size: 30px;}                
+        #works .inner ul li { width: 100%; }         
+        #works .inner ul li img {height: 200px;}
+        #contact .inner h3 {font-size: 30px; width: 100%; }
+        #contact .inner ul li span { font-size: 48px;}
+        #contact .inner ul li {width: 100%; margin-bottom: 50px;}
+        
+        
+    }
+
+    @media all and (min-width:768px) and (max-width:1300px) {  /*테블릿*/
+        .profile ul li{font-size: 15px}
+        #home h2 {font-size: 70px;} 
+        
+        #header .inner {width: 80%;}
+        #works { height: 2800px; } 
+        #works .inner ul li {width: 80%; margin-left: 10%;}
+        #works .inner ul li:nth-child(2n+1) {margin-right:10%;}
+        #works .inner ul li:nth-child(2n+0) {margin-right:0;}
+        #contact .inner ul li {width: 100%; margin-bottom: 50px;}
+        #contact .inner h3 {width: 100%; }        
+    }
+
+    @media all and (min-width:1300px) {     /*PC*/
+
+    }
