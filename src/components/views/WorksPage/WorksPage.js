@@ -19,7 +19,8 @@ function WorksPage() {
                     <WorkList imgUrl="/image/naver.jpg" title="NAVER" skills="HTML5 CSS3" describe="네이버회사 첫화면, 소개페이지" url="/htmlSource/naver/index.html" />
                     <WorkList imgUrl="/image/lottelab.jpg" title="롯데연구소" skills="HTML5 CSS3" describe="롯데연구소 첫화면" url="/htmlSource/lottelab/index.html" />
                     <WorkList imgUrl="/image/take.jpg" title="TAKE" skills="HTML5 CSS3" describe="KT M&amp;S 첫화면" url="/htmlSource/takelte/index.html"/>                    
-                    <WorkList imgUrl="/image/orion.jpg" title="ORION" skills="HTML5 CSS3" describe="오리온 모바일, 회사소개, CEO페이지" url="/htmlSource/m/orion/index.html" m="1"/>
+                    <WorkList imgUrl="/image/orion.jpg" title="ORION" skills="HTML5 CSS3" describe="오리온 모바일, 회사소개, CEO페이지" url="/htmlSource/m/orion/index.html" m="1" />
+                    <WorkList imgUrl="/image/like-app.png" title="LikeApp" skills="Svelte HTML5 CSS3" describe="Svelte 미니프로젝트" url="https://upbeat-payne-8ccdef.netlify.app" outlink="1" />
                 </div>
             </div>
         </div>

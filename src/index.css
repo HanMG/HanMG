@@ -74,6 +74,11 @@ footer p{
   background-color: #F2C36B;  
 }
 
+.card-img-top {
+  object-fit: cover;
+  max-height: 200px;
+}
+
 .ex_company {
   border-bottom: 2px solid #F2C36B;
 }

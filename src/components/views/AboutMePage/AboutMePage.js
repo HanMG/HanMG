@@ -13,18 +13,18 @@ function AboutMePage() {
             <div className="container text-center mb-5">
                 <div className="row">
                     <div className="col-md-6">
-                        <img src="" alt="my Photo" width="100%" />
+                        <img src="./image/HanMG.jpg" alt="my Photo" height="400px;" />
                     </div>
                     <div className="col-md-6">
-                        <p><h4>NAME.</h4></p>
+                        <h4>NAME.</h4>
                         <p>한문구</p>
-                        <p><h4>BIRTH.</h4></p>
+                        <h4>BIRTH.</h4>
                         <p>1989. 11</p>
-                        <p><h4>SKILLS.</h4></p>
+                        <h4>SKILLS.</h4>
                         <div>                           
                             <p><span className="tag">HTML5</span><span className="tag">CSS3</span><span className="tag">Javascript</span></p>                           
-                            <p><span className="tag">Jquery</span><span className="tag">BootStrap</span><span className="tag">React</span></p>                           
-                            <p><span className="tag">Photoshop</span></p>
+                            <p><span className="tag">Jquery</span><span className="tag">BootStrap</span><span className="tag">Photoshop</span></p>
+                            <p><span className="tag">Svelte</span><span className="tag">React</span></p>                            
                         </div>
                     </div>                    
                 </div>

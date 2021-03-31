@@ -17,12 +17,15 @@ function WorksList(props) {
                     <p>{props.skills}</p>
                     <p><b>DESCRIBE</b></p>
                     <p className="card-text">{props.describe}</p>          
-                    {!props.m &&
+                    {!props.m && !props.outlink &&
                         <a href={process.env.PUBLIC_URL+props.url} className="btn btn-works stretched-link">VIEW</a>
+                    }                             
+                    {!props.m && props.outlink && 
+                        <a href={props.url} className="btn btn-works stretched-link">VIEW</a>
                     }
-                    {props.m &&
+                    {props.m && !props.outlink &&
                         <a href="#" onClick={() => openInWindow(process.env.PUBLIC_URL+props.url)} className="btn btn-works stretched-link">VIEW</a>
-                    }          
+                    } 
                 </div>
             </div>
         </div>
